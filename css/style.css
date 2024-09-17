@@ -1,0 +1,146 @@
+@import url('"https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet"')
+
+
+@font-face{
+	font-family:"Catamaran", sans-serif;
+	src:url("../fonts/Catamaran-VariableFont_wght.ttf") format("truetype");
+}
+
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+	--color-titulo: #ffffff;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+#hero-express{
+	background-image: url("../img/slider-glob.png");
+	background-color: var(--color-negro);
+}
+
+#hero-text{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#hero-img{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#hero-1{
+	color: var(--color-titulo);
+	font-size: 400%;
+}
+
+#hero-2{
+	color: var(--color-naranja);
+	font-size: 400%;
+}
+
+#hero-text p{
+	color: var(--color-titulo);
+}
+
+
+#hero-text a{
+	background-color: var(--color-naranja); 
+}
+
+
+#hero-express .btn{
+	border: 2px;
+	border-radius: 100px;
+	color: var(--color-negro);
+	padding: 15px 50px;
+}
+
+#menu{
+	text-align: center;
+	padding: 80px;
+}
+
+#menu h6{
+	color: var(--color-negro);
+}
+
+#menu h1{
+	color: var(--color-negro);
+}
+
+
+#menu .btn{
+	border: 2px;
+	border-radius: 100px;
+	color: var(--color-negro);
+	padding: 15px 50px;
+	background-color: var(--color-naranja);
+}
+
+#menu i{
+	color: var(--color-naranja);
+	padding-top: 30px;
+}
+
+#menu div{
+	padding-top: 20px;
+	margin: 0;
+}
+
+#menu article{
+    width: 250px;
+    margin: 0 auto;
+}
+
+#ultimo{
+	background-color: var(--color-negro);
+	padding-left: 0px;
+}
+
+#ultimo h1{
+	color: var(--color-titulo);
+}
+
+#ultimo i{
+	color:  var(--color-naranja) ;
+}
+
+
+#ultimo .btn{
+	border: 2px;
+	border-radius: 100px;
+	color: var(--color-negro);
+	padding: 15px 50px;
+	background-color: var(--color-naranja);
+}
